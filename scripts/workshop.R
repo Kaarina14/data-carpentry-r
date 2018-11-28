@@ -8,4 +8,19 @@ interviews <- read_csv("data/SAFI_clean.csv",na="NULL")
 interviews
 # can be show as original data, use command  as.data.frame(interview)
 view(interviews)
+#inspect data
+dim(interviews)
+nrow(interviews)
+ncol(interviews)
+
+head(as.data.frame(interviews))
+#last rows in data
+tail(interviews)
+#column names
+names (interviews)
+#basic summary of data (data classes, which is data.frames)
+str(interviews)
+#summary shows each column separately and saummarises them mean values, min, max etc.
+summary(interviews)
+
 
